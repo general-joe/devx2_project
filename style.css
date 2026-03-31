@@ -175,8 +175,9 @@ header {
   }
 
   .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 
   .hero-section h1 {
