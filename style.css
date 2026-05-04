@@ -58,11 +58,6 @@ header {
   border-bottom: 2px solid transparent;
 }
 
-.nav-links a:hover {
-  color: #6c3dd1;
-  border-bottom-color: #6c3dd1;
-}
-
 .nav-actions {
   display: flex;
   gap: 15px;
@@ -70,17 +65,20 @@ header {
 }
 
 .sign-in {
+  background-color: transparent;
+  color: black;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
   text-decoration: none;
-  font-size: 14px;
-  color: #1f1f3d;
 }
 
 .sign-up {
-  background: #6c3dd1;
+  background-color: #60269e;
   color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 10px 16px;
   cursor: pointer;
 }
 
@@ -147,7 +145,7 @@ header {
   background: white;
   padding: 20px 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .stat-card h3 {
@@ -189,8 +187,6 @@ header {
     align-items: center;
   }
 }
-
-
 
 /* ============================ */
 /* OUR STORY SECTION            */
@@ -236,7 +232,6 @@ header {
   border-radius: 12px;
   object-fit: cover;
 }
-
 
 /* ============================ */
 /* WHAT SETS US APART SECTION   */
@@ -288,7 +283,7 @@ header {
   height: 32px;
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .slider-btn.left {
@@ -299,12 +294,10 @@ header {
   right: -15px;
 }
 
-
 /* ============================ */
 /* RESPONSIVE                   */
 /* ============================ */
 @media (max-width: 768px) {
-
   .story-container {
     flex-direction: column;
     text-align: center;
@@ -314,9 +307,7 @@ header {
     width: 100%;
     max-width: 320px;
   }
-
 }
-
 
 /* ============================ */
 /* COMMUNITY SECTION            */
@@ -357,7 +348,6 @@ header {
   width: 340px;
   border-radius: 12px;
 }
-
 
 /* ============================ */
 /* PURPLE CTA SECTION           */
@@ -406,12 +396,10 @@ header {
   width: 300px;
 }
 
-
 /* ============================ */
 /* RESPONSIVE                   */
 /* ============================ */
 @media (max-width: 768px) {
-
   .community-container {
     flex-direction: column;
     text-align: center;
@@ -428,7 +416,6 @@ header {
     max-width: 320px;
   }
 }
-
 
 /* ============================ */
 /* MEET OUR MENTORS SECTION     */
@@ -465,7 +452,7 @@ header {
   padding: 25px;
   border-radius: 12px;
   width: 230px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 
@@ -505,12 +492,10 @@ header {
   font-size: 14px;
 }
 
-
 /* ============================ */
 /* RESPONSIVE                   */
 /* ============================ */
 @media (max-width: 768px) {
-
   .mentors-section {
     padding: 60px 20px;
   }
@@ -519,9 +504,7 @@ header {
     width: 100%;
     max-width: 280px;
   }
-
 }
-
 
 /* ============================ */
 /* FOOTER SECTION               */
@@ -577,7 +560,7 @@ header {
 
 /* Bottom Bar */
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 40px;
   padding-top: 15px;
   display: flex;
@@ -596,12 +579,10 @@ header {
   font-size: 14px;
 }
 
-
 /* ============================ */
 /* RESPONSIVE                   */
 /* ============================ */
 @media (max-width: 768px) {
-
   .footer-container {
     flex-direction: column;
   }
@@ -610,9 +591,7 @@ header {
     flex-direction: column;
     gap: 10px;
   }
-
 }
-
 
 /* ============================ */
 /* MODAL STYLING                */
